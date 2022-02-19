@@ -95,9 +95,30 @@ iframe{
 }
 
 /* about section */
+
+#about{
+    background-image: url("images/mid.png");
+    background-size: cover;
+    padding: 100px;
+}
 #about .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#about .container h2{
+    margin-bottom: 25px;
+    color:  #97477c;
+    font-size: 40px;
+}
+
+#about .container h3{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #a4d0dd;
+    line-height: 2;
+    background: #323b30;
+    padding: 20px;
 }
