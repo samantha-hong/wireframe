@@ -141,6 +141,7 @@ iframe{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #skins .container h3{
@@ -152,6 +153,7 @@ iframe{
     color: white;
     font-size: 20px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .project, 
@@ -161,6 +163,7 @@ iframe{
 
 #skins button{
     margin-top: 20px;
+    margin-bottom: 50px;
     padding: 10px 20px;
     border-radius: 10px;
 }
