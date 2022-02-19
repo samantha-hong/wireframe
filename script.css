@@ -57,3 +57,29 @@ ul{
 }
 
 /* main section */
+header{
+    background: #a4d0dd;;
+}
+
+.main .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .container .title{
+    margin-top: 20px;
+}
+
+.main .container .description{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #1e1c43;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+iframe{
+    margin-bottom: 20px;
+}
