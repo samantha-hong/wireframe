@@ -1,7 +1,59 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    background: #295095;
+    color: white;
+    height: 60px;
+    padding: 10px 10px;
 }
 
 ul{
     list-style: none;
 }
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li{
+    margin-right: 20px;
+    color: white;
+}
+
+.navbar .button{
+    background: white;
+    border: 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.navbar .button a{
+    color: #295095;
+}
+
+/* main section */
