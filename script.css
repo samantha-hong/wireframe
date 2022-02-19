@@ -169,8 +169,42 @@ iframe{
     font-size: 16px;
     color: #97477c;
     text-decoration: none;
+    font-weight: bold;
 }
 
 #skins a:hover{
     color:#295095;
+}
+
+/* footer */
+footer{
+    background: #0c0c0c;
+    color: white;
+    padding: 20px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .links{
+    margin-bottom: 10px;
+}
+
+.footer .container .map{
+    display: flex;
+}
+
+.footer .map li{
+    margin-right: 20px;
+}
+
+.footer .map a{
+    color: #97477c;
+    text-decoration: none;
+}
+
+.footer .map a:hover{
+    color: #a4d0dd
 }
