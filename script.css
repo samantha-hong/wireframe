@@ -122,3 +122,55 @@ iframe{
     background: #323b30;
     padding: 20px;
 }
+
+/* skins */
+#skins{
+    background-image: url("images/silco.png");
+    background-size: cover;
+    padding: 50px;
+}
+
+#skins h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color:#a4d0dd;
+    font-size: 40px;
+}
+
+#skins .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skins .container h3{
+    color: #97477c;
+    font-size: 35px;
+}
+
+#skins .container p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.project, 
+.elf {
+    text-align: center;
+}
+
+#skins button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#skins a{
+    font-size: 16px;
+    color: #97477c;
+    text-decoration: none;
+}
+
+#skins a:hover{
+    color:#295095;
+}
